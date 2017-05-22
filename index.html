@@ -1,0 +1,51 @@
+<html>
+<head> 
+<link rel="stylesheet" type="text/css" href="CSS.css" />
+<link href='http://fonts.googleapis.com/css?family=Monda:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>ExampleServer</title> 
+</head> 
+<body>
+
+<div width="100%" height="100%">
+<div align="center">
+		<span id="heading">ServerName</span>
+</div>
+<script type="text/javascript" src="conf.js"></script>
+<div border="0" align="center">
+	<script language="JavaScript">
+document.write('<a href="' + window.location.protocol + '//' + window.location.hostname + ':' + plex + '" ><i id="plex" class="fa fa-chevron-right"></i></a> ' );
+</script>
+</div>
+	<script language="JavaScript">
+	document.write('[ <a href="' + window.location.protocol + '//' + window.location.hostname + '/forum' + '" ><i class="fa fa-comment"></i> Forum </a> ]' );
+	</script>
+<br>
+<div style="font-size: 12px;letter-spacing: normal;bottom: 0;position: fixed; width: 100%;padding: 0px;">
+[
+<script language="JavaScript">
+document.write('<a target="_blank" href="' + window.location.protocol + '//' + window.location.hostname + ':' + sab + '" ><i class="fa fa-cloud-download"></i> SABnzbd</a>' );
+</script>
+-
+<script language="JavaScript">
+document.write('<a target="_blank" href="' + window.location.protocol + '//' + window.location.hostname + ':' + tor + '" ><i class="fa fa-tint"></i> Deluge</a>' );
+</script>
+-
+<script language="JavaScript">
+document.write('<a target="_blank" href="' + window.location.protocol + '//' + window.location.hostname + ':' + tv + '" ><i class="fa fa-television"></i> Sonarr</a>' );
+</script>
+-
+<script language="JavaScript">
+document.write('<a target="_blank" href="' + window.location.protocol + '//' + window.location.hostname + ':' + hp + '" ><i class="fa fa-pie-chart"></i> PlexyPy</a>' );
+</script>
+-
+<script language="JavaScript">
+document.write('<a target="_blank" href="' + window.location.protocol + '//' + window.location.hostname + ':' + mv + '" ><i class="fa fa-ticket"></i> Radarr</a>' );
+</script>
+]
+</div>
+</div>
+</body>
+</html>

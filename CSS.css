@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+color: #99D5FF;
+text-shadow: #ADDDFF 0 0 10px;
+letter-spacing:-0.10em;
+font-size:70px;
+font-family: 'Megrim', san-serif;
+font-weight: normal;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Monda', sans-serif;
+	text-shadow: 1px 1px #666;
+	background-image: linear-gradient(bottom, rgb(62,62,79) 0%, rgb(30,30,42) 25%);
+	background-image: -o-linear-gradient(bottom, rgb(62,62,79) 0%, rgb(30,30,42) 25%);
+	background-image: -moz-linear-gradient(bottom, rgb(62,62,79) 0%, rgb(30,30,42) 25%);
+	background-image: -webkit-linear-gradient(bottom, rgb(62,62,79) 0%, rgb(30,30,42) 25%);
+	background-image: -ms-linear-gradient(bottom, rgb(62,62,79) 0%, rgb(30,30,42) 25%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(62,62,79)),
+		color-stop(0.56, rgb(30,30,42))
+);
+	color:#FFF;
+	letter-spacing:-0.10em;
+	font-size:20px;
+	text-align: center;
+
+}
+
+#plex {
+font-size: 256px;
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#FFCC00), color-stop(100%,#FF9933));
+background: -webkit-linear-gradient(-45deg, #FFCC00 0%,#FF9933 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-shadow: none;
+}
+
+
+p {
+	text-align: center;
+}
+
+a:link {
+	color: #FFF;
+	text-shadow: #ADDDFF 0 0 10px;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #CCC;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+r {
+	font-size: 20px;
+	color: #FFF;
+	letter-spacing: normal;
+}
+
+html {
+height:100%;
+}
+
+#header {
+text-align: center;
+padding: 1px;
+}
